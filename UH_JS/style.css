@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+
+button:nth-child(1) {
+    background-color: #db34b4; 
+    color: #fff;
+}
+
+button:nth-child(2) {
+    background-color: #e74c3c; 
+    color: #fff;
+}
+
+button:nth-child(3) {
+    background-color: #2ecc71; 
+    color: #fff;
+}
+
+button:nth-child(4) {
+    background-color: #f39c12; 
+    color: #fff;
+}
+
+button:nth-child(5) {
+    background-color: #9b59b6; 
+    color: #fff;
+}
